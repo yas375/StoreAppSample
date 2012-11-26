@@ -7,11 +7,14 @@
 //
 
 #import "SAAppDelegate.h"
+#define REVIEW_ALLOWED 1
+#import "MKStoreManager.h"
 
 @implementation SAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSLog(@"is review allowed: %d", REVIEW_ALLOWED);
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
