@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C907122DE9F40EB96235496 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBE0D1D1DF646B49DCA5913 /* libPods.a */; };
+		50C58E69166404DF00489EE5 /* MKStoreKitConfigs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50C58E68166404DF00489EE5 /* MKStoreKitConfigs.plist */; };
 		50E7F3B91663E13300E14623 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E7F3B81663E13300E14623 /* UIKit.framework */; };
 		50E7F3BB1663E13300E14623 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E7F3BA1663E13300E14623 /* Foundation.framework */; };
 		50E7F3BD1663E13300E14623 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E7F3BC1663E13300E14623 /* CoreGraphics.framework */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EBE0D1D1DF646B49DCA5913 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C58E68166404DF00489EE5 /* MKStoreKitConfigs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MKStoreKitConfigs.plist; sourceTree = "<group>"; };
 		50E7F3B41663E13300E14623 /* StoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E7F3B81663E13300E14623 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50E7F3BA1663E13300E14623 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,7 @@
 		50E7F3E01663E13400E14623 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50E7F3E21663E13400E14623 /* StoreAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreAppTests.h; sourceTree = "<group>"; };
 		50E7F3E31663E13400E14623 /* StoreAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreAppTests.m; sourceTree = "<group>"; };
+		6B7868CD597F49A6BF7E9275 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 				50E7F3B91663E13300E14623 /* UIKit.framework in Frameworks */,
 				50E7F3BB1663E13300E14623 /* Foundation.framework in Frameworks */,
 				50E7F3BD1663E13300E14623 /* CoreGraphics.framework in Frameworks */,
+				0C907122DE9F40EB96235496 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +92,7 @@
 				50E7F3DC1663E13400E14623 /* StoreAppTests */,
 				50E7F3B71663E13300E14623 /* Frameworks */,
 				50E7F3B51663E13300E14623 /* Products */,
+				6B7868CD597F49A6BF7E9275 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +112,7 @@
 				50E7F3BA1663E13300E14623 /* Foundation.framework */,
 				50E7F3BC1663E13300E14623 /* CoreGraphics.framework */,
 				50E7F3D61663E13400E14623 /* SenTestingKit.framework */,
+				3EBE0D1D1DF646B49DCA5913 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 				50E7F3C11663E13300E14623 /* InfoPlist.strings */,
 				50E7F3C41663E13300E14623 /* main.m */,
 				50E7F3C61663E13300E14623 /* StoreApp-Prefix.pch */,
+				50C58E68166404DF00489EE5 /* MKStoreKitConfigs.plist */,
 				50E7F3CA1663E13300E14623 /* Default.png */,
 				50E7F3CC1663E13300E14623 /* Default@2x.png */,
 				50E7F3CE1663E13300E14623 /* Default-568h@2x.png */,
@@ -162,6 +171,7 @@
 				50E7F3B01663E13300E14623 /* Sources */,
 				50E7F3B11663E13300E14623 /* Frameworks */,
 				50E7F3B21663E13300E14623 /* Resources */,
+				D3CFE1BFA79C4E459F8BF799 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,6 +238,7 @@
 				50E7F3CB1663E13300E14623 /* Default.png in Resources */,
 				50E7F3CD1663E13300E14623 /* Default@2x.png in Resources */,
 				50E7F3CF1663E13300E14623 /* Default-568h@2x.png in Resources */,
+				50C58E69166404DF00489EE5 /* MKStoreKitConfigs.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +265,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		D3CFE1BFA79C4E459F8BF799 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -359,6 +384,7 @@
 		};
 		50E7F3E81663E13400E14623 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7868CD597F49A6BF7E9275 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoreApp/StoreApp-Prefix.pch";
@@ -370,6 +396,7 @@
 		};
 		50E7F3E91663E13400E14623 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7868CD597F49A6BF7E9275 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoreApp/StoreApp-Prefix.pch";
@@ -432,6 +459,7 @@
 				50E7F3E91663E13400E14623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50E7F3EA1663E13400E14623 /* Build configuration list for PBXNativeTarget "StoreAppTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +468,7 @@
 				50E7F3EC1663E13400E14623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
